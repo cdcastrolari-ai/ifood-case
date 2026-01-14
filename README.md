@@ -11,7 +11,11 @@ A etapa de modelagem está **pendente** nessa versão, trazendo impacto para a e
 
 
 ## 2. Principais Insights
-*(To do)*
+- Ofertas são o principal motor de receita: 62% da receita total vem de compras com uso de ofertas, mostrando forte impacto das promoções
+- O valor mínimo de compra é o principal fator de performance e define o equilíbrio entre conversão e receita líquida
+- Ofertas com ticket mínimo elevado reduzem a conversão, mas maximizam a receita média, enquanto tickets menores ampliam escala
+- As ofertas de desconto apresentam desempenho superior em receita quando comparadas às promoções “compre um e leve outro”
+
 
 ## 3. Orientações para execução do projeto
 
