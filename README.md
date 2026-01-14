@@ -64,4 +64,11 @@ Caso prefira rodar o projeto localmente:
 
 > Observação: Os arquivos de dados não estão versionados neste repositório. Para executar a análise completa, é necessário obter os dados conforme as instruções do case técnico.
 
+## 4. Apresentação dos Resultados
+
+Os principais resultados, insights e a proposta de estratégia de negócio estão consolidados em uma apresentação voltada para stakeholders não técnicos.
+
+📊 **Link para os slides:**
+https://link-para-sua-apresentacao.com
+
 
