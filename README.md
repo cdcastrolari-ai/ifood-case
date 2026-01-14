@@ -1,4 +1,4 @@
-# Case Técnico – Data Scientist | iFood
+# Case Técnico Data Science - iFood
 
 ## 1. Introdução
 
@@ -69,6 +69,6 @@ Caso prefira rodar o projeto localmente:
 Os principais resultados, insights e a proposta de estratégia de negócio estão consolidados em uma apresentação voltada para stakeholders não técnicos.
 
 📊 **Link para os slides:**
-https://link-para-sua-apresentacao.com
+(https://docs.google.com/presentation/d/1q9RHkP0nIF8g3MHG9zAH4fkQGFys1bFIklHxa9HuTqI/edit?usp=sharing)
 
 
