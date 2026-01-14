@@ -21,7 +21,6 @@ Este projeto foi desenvolvido para ser executado **no Databricks**, utilizando P
 
 Para reproduzir a análise, siga os passos abaixo utilizando uma **conta do Databricks**.
 
----
 
 ### 1. Clonar o repositório no Databricks
 
@@ -31,7 +30,6 @@ Para reproduzir a análise, siga os passos abaixo utilizando uma **conta do Data
 4. Clique em **Create Git Folder**
 O Databricks irá clonar automaticamente o projeto para o seu workspace.
 
----
 
 ### 2. Executar o notebook de setup do ambiente
 
@@ -46,8 +44,6 @@ Após o repositório ser importado:
 Este notebook é responsável por:
 - Criar **schemas** necessários para a execução do projeto
 - Criar e configurar **volumes** utilizados para armazenamento dos dados
-
----
 
 ### 3. Executar o processamento de dados
 
