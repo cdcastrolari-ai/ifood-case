@@ -69,8 +69,6 @@ Os resultados gerados neste notebook servem de base para as análises e insights
 
 ## 4. Apresentação dos Resultados
 
-*(To do)*
-
 📊 **Link para os slides:**
 
 https://docs.google.com/presentation/d/1q9RHkP0nIF8g3MHG9zAH4fkQGFys1bFIklHxa9HuTqI/edit?usp=sharing
