@@ -2,11 +2,12 @@
 
 ## 1. Introdução
 
-Este repositório contém a solução desenvolvida para o **case técnico de Data Science do iFood**, cujo objetivo é analisar dados de clientes, ofertas e transações para propor uma estratégia mais eficiente de distribuição de cupons e ofertas.
+Este repositório contém a solução (parcial) desenvolvida para o **case técnico de Data Science do iFood**, cujo objetivo é analisar dados de clientes, ofertas e transações. Além disso, desenvolver um modelo que propõe uma estratégia mais eficiente de distribuição de cupons e ofertas para cada cliente.
 
-A análise foi conduzida com foco em **entendimento do comportamento dos clientes**, **avaliação da efetividade das ofertas** e **geração de insights acionáveis para o negócio**, utilizando Python e PySpark em ambiente Databricks.
+Os tratamentos das bases de dados, **offers, profile e transactions**, foram realizados na versão gratuita da plataforma Databricks, utilizando Python e PySpark. A partir destes, foi construído o dataset final **customer_engagement**.
+A análise tem com foco no **perfil dos clientes** e **avaliação da efetividade das ofertas**.
 
-Todo o processo, desde o tratamento dos dados até a extração de insights e apresentação dos resultados, foi estruturado para simular um cenário real de tomada de decisão orientada a dados.
+A etapa de modelagem está **pendente** nessa versão, trazendo impacto para a entrega do case técnico
 
 ---
 
@@ -69,6 +70,7 @@ Caso prefira rodar o projeto localmente:
 Os principais resultados, insights e a proposta de estratégia de negócio estão consolidados em uma apresentação voltada para stakeholders não técnicos.
 
 📊 **Link para os slides:**
-(https://docs.google.com/presentation/d/1q9RHkP0nIF8g3MHG9zAH4fkQGFys1bFIklHxa9HuTqI/edit?usp=sharing)
+
+https://docs.google.com/presentation/d/1q9RHkP0nIF8g3MHG9zAH4fkQGFys1bFIklHxa9HuTqI/edit?usp=sharing
 
 
