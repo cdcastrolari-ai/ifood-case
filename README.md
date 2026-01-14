@@ -15,28 +15,57 @@ A etapa de modelagem está **pendente** nessa versão, trazendo impacto para a e
 
 ## 3. Orientações para execução do projeto
 
-### Rodar localmente (Notebook Python)
+Este projeto foi desenvolvido para ser executado **no Databricks**, utilizando PySpark e recursos nativos da plataforma.
 
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/cdcastrolari-ai/ifood-case.git
+### Executando no Databricks via GitHub
 
-2. Crie um ambiente virtual (opcional, mas recomendado):
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # Linux/Mac
-   venv\Scripts\activate     # Windows
-   
-3. Instale as dependências:
-   ```bash
-   pip install -r requirements.txt
+Para reproduzir a análise, siga os passos abaixo utilizando uma **conta do Databricks**.
 
-4. Execute os notebooks localizados na pasta **notebooks/**, respeitando a ordem:
-   - 1_data_processing.ipynb
-   - 2_modeling.ipynb
+---
 
-> Observação: Os arquivos de dados não estão versionados neste repositório. Para executar a análise completa, é necessário obter os dados conforme as instruções do case técnico
-> Os dados podem ser acessados através desse link: https://data-architect-test-source.s3.sa-east-1.amazonaws.com/ds-technical-evaluation-data.tar.gz
+### 1. Clonar o repositório no Databricks
+
+1. No menu lateral do Databricks, acesse **Workspace > Repos**
+2. Clique em **Create Git Folder**
+3. Informe a URL do repositório: https://github.com/cdcastrolari-ai/ifood-case.git
+4. Clique em **Create Git Folder**
+O Databricks irá clonar automaticamente o projeto para o seu workspace.
+
+---
+
+### 2. Executar o notebook de setup do ambiente
+
+Após o repositório ser importado:
+
+1. Navegue até o diretório: **notebooks/**
+
+2. Abra o notebook: **0_setup.ipynb**
+
+3. Execute todas as células do notebook clicando em **Run all**
+
+Este notebook é responsável por:
+- Criar **schemas** necessários para a execução do projeto
+- Criar e configurar **volumes** utilizados para armazenamento dos dados
+
+---
+
+### 3. Executar o processamento de dados
+
+Após a conclusão do setup:
+
+1. Ainda no diretório `notebooks/`, abra o notebook: **1_data_processing.ipynb**
+
+2. Execute todas as células do notebook clicando em **Run all**
+
+Este notebook realiza:
+- Leitura e processamento dos dados
+- Transformações e consolidação das informações
+- Geração de **tabelas** intermediárias
+- Criação de **gráficos e visualizações** ao longo do processamento, que auxiliam na análise exploratória dos dados
+
+Os resultados gerados neste notebook servem de base para as análises e insights apresentados neste case.
+
+> Os dados para a realização do case também podem ser acessados através desse link: https://data-architect-test-source.s3.sa-east-1.amazonaws.com/ds-technical-evaluation-data.tar.gz
 
 ## 4. Apresentação dos Resultados
 
